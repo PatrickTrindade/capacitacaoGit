@@ -1,0 +1,226 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(230,230,230);
+}
+
+div{
+    display: flex;
+}
+
+h3,h4,h5{
+    font-family: Arial;
+    font-weight: 500;
+
+}
+h3{
+    font-size: 15px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 12px;
+    color: gray;
+}
+
+b{
+    font-weight: 700;
+}
+
+hr{
+    color:rgb(227, 227, 227)
+}
+
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.top-row{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-top: 0%;
+    justify-content: space-evenly;
+    background-color: white;
+    border-color: black;
+}
+
+.post{
+    display: flex;
+    margin-top: 5%;
+    height: 600px;
+    background-color: white;
+}
+
+.profile_photo{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.comment-text{
+    margin-top: 13px;
+}
+
+.comment-bottom-element{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+.logo_fluxo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+#instagram-image-div{
+    height: 100%;
+    width: 15%;
+    justify-content: left;
+    cursor: pointer;
+}
+
+#instagram_img{
+    margin-top: 5px;
+    height: 50px;
+    width: auto;
+}
+
+#search{
+    margin-top: 17px;
+    height: 25px;
+    border-radius: 6%;
+    border-width: 1px;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(227, 227, 227);    
+}
+
+#top_icons_box{
+    margin-top: 8px;
+    width: 15%;
+    justify-content: space-between;
+}
+
+
+#post-image{
+    width:600px;
+    height: 600px;
+}
+
+#comments-session{
+    width: 100%;
+    height: 600px;
+    width: 350px;
+    flex-direction: column;
+    background-color: white;
+}
+
+#comments-top{
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile{
+    align-items: center;
+    width: 80%;
+}
+
+
+#three_dots{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#comments-body{
+    align-content: flex-start;
+    height: 100%;
+}
+
+#comments-bottom{
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comments-icons{
+    width: 100%;
+    justify-content: space-between;
+}
+
+#comments_icons_box{
+    justify-content: space-between;
+}
+
+#save_svg{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#comment-box{
+    margin-left: 5%;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+#post-button{
+    height: 100%;
+    width: 20%;
+    font-weight: bold;
+    color: rgb(150,150,255);
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+
+
+.login{
+    width: 90%;
+    height: 35px;
+    margin-top: 1%;
+    border: 1px solid #3897f0;
+    border-radius: 3px;
+    background-color: #3897f0;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.login:hover{
+    background-color:aqua;
+    border-color: blue;
+}
